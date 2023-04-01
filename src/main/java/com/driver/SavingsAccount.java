@@ -12,6 +12,10 @@ public class SavingsAccount extends BankAccount{
 
     }
 
+    public SavingsAccount() {
+
+    }
+
     public double getRate() {
         return rate;
     }

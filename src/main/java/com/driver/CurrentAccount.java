@@ -12,6 +12,10 @@ public class CurrentAccount extends BankAccount{
             throw new Exception("Insufficient Balance");
     }
 
+    public CurrentAccount(){
+
+    }
+
     public String getTradeLicenseId() {
         return tradeLicenseId;
     }

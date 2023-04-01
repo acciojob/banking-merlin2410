@@ -14,6 +14,9 @@ public class BankAccount {
         this.minBalance = minBalance;
     }
 
+    public BankAccount() {
+    }
+
     public String getName() {
         return name;
     }
