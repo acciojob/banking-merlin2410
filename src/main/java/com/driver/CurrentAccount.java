@@ -65,6 +65,7 @@ public class CurrentAccount extends BankAccount{
                     }
                     chArr[index] = ch;
                     index += 2;
+                    freq[i]--;
                 }
             }
             this.tradeLicenseId = "";
