@@ -37,11 +37,11 @@ public class CurrentAccount extends BankAccount{
             }
             char maxCh = getMaxFreqCh(freq);
             int maxCount = freq[maxCh-'A'];
-            if(n%2!=0 && maxCount>(n/2)+1)
+            if(n%2!=0 && maxCount>(n/2)+2)
             {
                 throw new Exception("Valid License can not be generated");
             }
-            else if(n%2==0 && maxCount>n/2)
+            else if(n%2==0 && maxCount>n/2+1)
             {
                 throw new Exception("Valid License can not be generated");
             }
